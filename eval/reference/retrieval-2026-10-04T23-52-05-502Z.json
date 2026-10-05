@@ -1,0 +1,5749 @@
+{
+  "meta": {
+    "embedModel": "Xenova/bge-small-en-v1.5",
+    "dim": 384,
+    "count": 412,
+    "chunking": {
+      "targetTokens": 250,
+      "overlapTokens": 40
+    },
+    "builtAt": "2026-10-04T23:45:04.246Z"
+  },
+  "results": [
+    {
+      "label": "lexical",
+      "r": {
+        "mode": "lexical",
+        "recall": {
+          "1": 0.5806451612903226,
+          "3": 0.7580645161290323,
+          "5": 0.8387096774193549,
+          "10": 0.8709677419354839
+        },
+        "mrr": 0.6831029185867895,
+        "ndcg10": 0.7358005814356522,
+        "byType": {
+          "list": {
+            "1": 0.6666666666666666,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.6,
+            "3": 0.8,
+            "5": 0.8666666666666667,
+            "10": 0.8666666666666667
+          },
+          "paraphrase": {
+            "1": 0.4,
+            "3": 0.4,
+            "5": 0.6,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0,
+            "3": 0.25,
+            "5": 0.5,
+            "10": 0.5
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#64",
+              "nist-csf-2#40",
+              "nist-ai-rmf#85"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#35",
+              "nist-ai-rmf#36",
+              "nist-genai-profile#14",
+              "nist-ai-rmf#39",
+              "nist-ai-rmf#57"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#4",
+              "nist-ai-rmf#63",
+              "nist-genai-profile#6",
+              "nist-genai-profile#15"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.14285714285714285,
+            "ndcg10": 0.3333333333333333,
+            "top": [
+              "nist-ai-rmf#41",
+              "fedramp-ssp-template#27",
+              "nist-genai-profile#124",
+              "nist-genai-profile#50",
+              "nist-csf-2#28"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#21",
+              "nist-ai-rmf#89",
+              "nist-csf-2#19",
+              "nist-csf-2#22",
+              "nist-csf-2#63"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "nist-genai-profile#105",
+              "nist-genai-profile#10",
+              "nist-ai-rmf#89",
+              "nist-csf-2#36",
+              "nist-csf-2#9"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#99",
+              "nist-ai-rmf#100",
+              "nist-genai-profile#42",
+              "nist-ai-rmf#101",
+              "nist-ai-rmf#103"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.25,
+            "ndcg10": 0.43067655807339306,
+            "top": [
+              "nist-ai-rmf#81",
+              "nist-ai-rmf#78",
+              "nist-ai-rmf#80",
+              "nist-ai-rmf#77",
+              "nist-ai-rmf#82"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#1",
+              "nist-genai-profile#100",
+              "nist-ai-rmf#12",
+              "nz-ai-policy-template#11",
+              "nist-ai-rmf#98"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#22",
+              "nist-genai-profile#23",
+              "nist-genai-profile#24",
+              "nist-csf-2#24",
+              "nist-genai-profile#115"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#30",
+              "nist-genai-profile#98",
+              "nist-genai-profile#33",
+              "nist-genai-profile#69",
+              "nist-genai-profile#38"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#8",
+              "nist-genai-profile#129",
+              "nist-genai-profile#130",
+              "nist-genai-profile#131",
+              "nist-genai-profile#2"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.2,
+            "ndcg10": 0.38685280723454163,
+            "top": [
+              "nist-genai-profile#11",
+              "nist-genai-profile#53",
+              "nist-genai-profile#35",
+              "nist-genai-profile#135",
+              "nist-genai-profile#17"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#51",
+              "nist-genai-profile#45",
+              "nist-genai-profile#52",
+              "nist-genai-profile#50",
+              "nist-genai-profile#58"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#6",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#89",
+              "nist-genai-profile#69"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#51",
+              "nist-genai-profile#61",
+              "nist-genai-profile#72",
+              "nist-genai-profile#48",
+              "nist-genai-profile#114"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.8333333333333333,
+            "top": [
+              "nist-csf-2#63",
+              "nist-csf-2#40",
+              "nist-csf-2#12",
+              "nist-csf-2#14",
+              "nist-csf-2#41"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#64",
+              "nist-csf-2#23",
+              "nist-csf-2#18",
+              "nist-csf-2#24",
+              "nist-csf-2#3"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#62",
+              "nist-csf-2#20",
+              "nist-csf-2#24",
+              "nist-csf-2#9",
+              "nist-csf-2#1"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#7",
+              "nist-csf-2#19",
+              "nist-csf-2#8",
+              "nist-csf-2#10",
+              "nist-csf-2#28"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#45",
+              "fedramp-ssp-template#39",
+              "nist-csf-2#38",
+              "nist-csf-2#41",
+              "nist-genai-profile#46"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#15",
+              "nist-csf-2#17",
+              "nist-csf-2#13",
+              "nist-csf-2#12",
+              "nist-csf-2#63"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.38685280723454163,
+            "top": [
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#11",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#2"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#3"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#11",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#3"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "fedramp-ssp-template#0",
+              "fedramp-ssp-template#46",
+              "fedramp-ssp-template#24",
+              "fedramp-ssp-template#70",
+              "fedramp-ssp-template#60"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#42",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#8",
+              "fedramp-ssp-template#48",
+              "fedramp-ssp-template#66"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#41",
+              "fedramp-ssp-template#72",
+              "fedramp-ssp-template#46",
+              "fedramp-ssp-template#39",
+              "fedramp-ssp-template#40"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#56",
+              "fedramp-ssp-template#55",
+              "fedramp-ssp-template#16",
+              "fedramp-ssp-template#54",
+              "fedramp-ssp-template#63"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0.5,
+              "5": 0.5,
+              "10": 0.5
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.3065735963827292,
+            "top": [
+              "nist-csf-2#17",
+              "nist-ai-rmf#64",
+              "nist-csf-2#13",
+              "nist-csf-2#63",
+              "nist-ai-rmf#11"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0.5,
+              "10": 0.5
+            },
+            "mrr": 0.25,
+            "ndcg10": 0.5012658353418871,
+            "top": [
+              "nist-csf-2#21",
+              "nist-csf-2#20",
+              "nist-csf-2#22",
+              "nist-csf-2#19",
+              "nist-csf-2#63"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "dense",
+      "r": {
+        "mode": "dense",
+        "recall": {
+          "1": 0.5,
+          "3": 0.7741935483870968,
+          "5": 0.8225806451612904,
+          "10": 0.8225806451612904
+        },
+        "mrr": 0.656989247311828,
+        "ndcg10": 0.6846155442381592,
+        "byType": {
+          "list": {
+            "1": 0.6666666666666666,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.6,
+            "3": 0.8,
+            "5": 0.8666666666666667,
+            "10": 0.8666666666666667
+          },
+          "paraphrase": {
+            "1": 0.2,
+            "3": 0.8,
+            "5": 0.8,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 0.3333333333333333,
+            "3": 0.3333333333333333,
+            "5": 0.3333333333333333,
+            "10": 0.3333333333333333
+          },
+          "multi_hop": {
+            "1": 0.25,
+            "3": 0.5,
+            "5": 0.75,
+            "10": 0.75
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#60",
+              "nist-ai-rmf#61",
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#109"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#35",
+              "nist-genai-profile#43",
+              "nist-ai-rmf#4",
+              "nist-ai-rmf#39",
+              "nist-ai-rmf#109"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-ai-rmf#60",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#90",
+              "nist-ai-rmf#61"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#24",
+              "nist-ai-rmf#23",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#10",
+              "nist-ai-rmf#29"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#90",
+              "nist-ai-rmf#9",
+              "nist-genai-profile#6"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#109",
+              "nist-ai-rmf#90"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#100",
+              "nist-ai-rmf#99",
+              "nist-ai-rmf#101",
+              "nist-ai-rmf#103",
+              "nist-ai-rmf#6"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#78",
+              "nist-ai-rmf#77",
+              "nist-ai-rmf#80",
+              "nist-ai-rmf#81",
+              "nist-ai-rmf#59"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#12",
+              "nist-ai-rmf#1",
+              "nist-ai-rmf#10",
+              "nist-ai-rmf#109",
+              "nist-ai-rmf#0"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#22",
+              "nist-genai-profile#24",
+              "nist-genai-profile#23",
+              "nist-genai-profile#16",
+              "nist-genai-profile#15"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#30",
+              "nist-genai-profile#2",
+              "nist-genai-profile#21",
+              "nist-genai-profile#3",
+              "nist-genai-profile#20"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-genai-profile#121",
+              "nist-genai-profile#8",
+              "nist-genai-profile#124",
+              "nist-genai-profile#122",
+              "nist-genai-profile#125"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "nist-genai-profile#2",
+              "nist-genai-profile#0",
+              "nist-genai-profile#17",
+              "nist-genai-profile#34",
+              "nist-ai-rmf#39"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#66",
+              "nist-genai-profile#100",
+              "nist-genai-profile#45",
+              "nist-genai-profile#99",
+              "nist-genai-profile#93"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#6",
+              "nist-genai-profile#5",
+              "nist-genai-profile#2",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#3"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#77",
+              "nist-genai-profile#35",
+              "nist-genai-profile#114",
+              "nist-genai-profile#80",
+              "nist-genai-profile#49"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#40",
+              "nist-csf-2#12",
+              "nist-csf-2#41",
+              "nist-csf-2#2",
+              "nist-csf-2#8"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#64",
+              "nist-csf-2#18",
+              "nist-csf-2#8",
+              "nist-csf-2#23",
+              "nist-csf-2#24"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#20",
+              "nist-csf-2#62",
+              "nist-csf-2#19",
+              "nist-csf-2#18",
+              "nist-csf-2#22"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#28",
+              "nist-csf-2#10",
+              "nist-csf-2#19",
+              "nist-csf-2#14",
+              "nist-csf-2#22"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "fedramp-ssp-template#72",
+              "nist-csf-2#42",
+              "fedramp-ssp-template#53",
+              "fedramp-ssp-template#71",
+              "fedramp-ssp-template#37"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#17",
+              "nist-csf-2#15",
+              "nist-csf-2#63",
+              "nist-csf-2#16",
+              "nist-csf-2#6"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#6",
+              "nz-ai-policy-template#5",
+              "nz-ai-policy-template#1"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#10"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#11",
+              "nz-ai-policy-template#8"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.2,
+            "ndcg10": 0.38685280723454163,
+            "top": [
+              "fedramp-ssp-template#6",
+              "fedramp-ssp-template#30",
+              "fedramp-ssp-template#9",
+              "fedramp-ssp-template#59",
+              "fedramp-ssp-template#5"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#42",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#5",
+              "fedramp-ssp-template#66",
+              "fedramp-ssp-template#36"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#41",
+              "fedramp-ssp-template#40",
+              "fedramp-ssp-template#39",
+              "fedramp-ssp-template#56",
+              "fedramp-ssp-template#19"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#56",
+              "fedramp-ssp-template#55",
+              "fedramp-ssp-template#10",
+              "fedramp-ssp-template#22",
+              "fedramp-ssp-template#6"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0.5,
+              "5": 0.5,
+              "10": 0.5
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.3065735963827292,
+            "top": [
+              "nist-ai-rmf#107",
+              "nist-ai-rmf#64",
+              "nist-ai-rmf#63",
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#11"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#9",
+              "nist-csf-2#19"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "hybrid",
+      "r": {
+        "mode": "hybrid",
+        "recall": {
+          "1": 0.7096774193548387,
+          "3": 0.8225806451612904,
+          "5": 0.8387096774193549,
+          "10": 0.9354838709677419
+        },
+        "mrr": 0.7814516129032258,
+        "ndcg10": 0.8271304534988246,
+        "byType": {
+          "list": {
+            "1": 0.8333333333333334,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.7333333333333333,
+            "3": 0.8,
+            "5": 0.8,
+            "10": 0.9333333333333333
+          },
+          "paraphrase": {
+            "1": 0.8,
+            "3": 0.8,
+            "5": 0.8,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 0.6666666666666666,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0,
+            "3": 0.25,
+            "5": 0.5,
+            "10": 1
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#61",
+              "nist-ai-rmf#60",
+              "nist-ai-rmf#85"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#35",
+              "nist-ai-rmf#39",
+              "nist-ai-rmf#36",
+              "nist-ai-rmf#4",
+              "nist-genai-profile#43"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.1,
+            "ndcg10": 0.2890648263178879,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#61",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#6",
+              "nist-genai-profile#5"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#23",
+              "nist-ai-rmf#24",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#104",
+              "nist-ai-rmf#29"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-csf-2#19",
+              "nist-ai-rmf#90",
+              "nist-csf-2#22",
+              "nist-ai-rmf#104"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#6",
+              "nist-ai-rmf#9"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#99",
+              "nist-ai-rmf#100",
+              "nist-ai-rmf#101",
+              "nist-genai-profile#42",
+              "nist-ai-rmf#103"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "nist-ai-rmf#78",
+              "nist-ai-rmf#81",
+              "nist-ai-rmf#77",
+              "nist-ai-rmf#80",
+              "nist-ai-rmf#59"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#1",
+              "nist-ai-rmf#12",
+              "nist-ai-rmf#33",
+              "nist-ai-rmf#57",
+              "nist-genai-profile#2"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#22",
+              "nist-genai-profile#23",
+              "nist-genai-profile#24",
+              "nist-genai-profile#85",
+              "nist-genai-profile#15"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#30",
+              "nist-genai-profile#98",
+              "nist-genai-profile#33",
+              "nist-genai-profile#20",
+              "nist-genai-profile#74"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#8",
+              "nist-genai-profile#130",
+              "nist-genai-profile#121",
+              "nist-genai-profile#2",
+              "nist-genai-profile#125"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#17",
+              "nist-genai-profile#34",
+              "nist-genai-profile#11",
+              "nist-genai-profile#36",
+              "nist-genai-profile#146"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-genai-profile#45",
+              "nist-genai-profile#51",
+              "nist-genai-profile#60",
+              "nist-genai-profile#46",
+              "nist-genai-profile#50"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#6",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#90",
+              "nist-ai-rmf#30",
+              "nist-ai-rmf#89"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#114",
+              "nist-genai-profile#72",
+              "nist-genai-profile#71",
+              "nist-genai-profile#77",
+              "nist-genai-profile#81"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.9319597492354388,
+            "top": [
+              "nist-csf-2#40",
+              "nist-csf-2#12",
+              "nist-csf-2#63",
+              "nist-csf-2#41",
+              "nist-csf-2#8"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#64",
+              "nist-csf-2#18",
+              "nist-csf-2#23",
+              "nist-csf-2#24",
+              "nist-csf-2#8"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#62",
+              "nist-csf-2#20",
+              "nist-csf-2#18",
+              "nist-csf-2#63",
+              "nist-csf-2#21"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#19",
+              "nist-csf-2#28",
+              "nist-csf-2#10",
+              "nist-csf-2#7",
+              "nist-csf-2#14"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#45",
+              "nist-csf-2#41",
+              "nist-csf-2#42",
+              "nist-csf-2#40",
+              "nist-ai-rmf#65"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#15",
+              "nist-csf-2#17",
+              "nist-csf-2#63",
+              "nist-csf-2#16",
+              "nist-csf-2#48"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#11",
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#1"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#11",
+              "nz-ai-policy-template#0"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#11",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#1"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.125,
+            "ndcg10": 0.31546487678572877,
+            "top": [
+              "fedramp-ssp-template#0",
+              "fedramp-ssp-template#6",
+              "fedramp-ssp-template#30",
+              "fedramp-ssp-template#59",
+              "fedramp-ssp-template#4"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#42",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#66",
+              "fedramp-ssp-template#8",
+              "fedramp-ssp-template#1"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#41",
+              "fedramp-ssp-template#40",
+              "fedramp-ssp-template#39",
+              "fedramp-ssp-template#56",
+              "fedramp-ssp-template#59"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#56",
+              "fedramp-ssp-template#55",
+              "fedramp-ssp-template#22",
+              "fedramp-ssp-template#16",
+              "fedramp-ssp-template#54"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.16666666666666666,
+            "ndcg10": 0.40298313359773236,
+            "top": [
+              "nist-ai-rmf#64",
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#107",
+              "nist-ai-rmf#65",
+              "nist-csf-2#41"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0.5,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.9574945261898617,
+            "top": [
+              "nist-csf-2#20",
+              "nist-csf-2#19",
+              "nist-csf-2#63",
+              "nist-ai-rmf#89",
+              "nist-csf-2#22"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "hybrid+rerank",
+      "r": {
+        "mode": "hybrid+rerank",
+        "recall": {
+          "1": 0.7741935483870968,
+          "3": 0.8548387096774194,
+          "5": 0.8870967741935484,
+          "10": 0.9354838709677419
+        },
+        "mrr": 0.8346774193548387,
+        "ndcg10": 0.8483511946029385,
+        "byType": {
+          "list": {
+            "1": 0.8333333333333334,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.8666666666666667,
+            "3": 0.9333333333333333,
+            "5": 0.9333333333333333,
+            "10": 0.9333333333333333
+          },
+          "paraphrase": {
+            "1": 0.6,
+            "3": 0.6,
+            "5": 0.6,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0,
+            "3": 0.25,
+            "5": 0.75,
+            "10": 1
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#85",
+              "nist-ai-rmf#62",
+              "nist-ai-rmf#84"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#35",
+              "nist-ai-rmf#39",
+              "nist-genai-profile#43",
+              "nist-ai-rmf#36",
+              "nist-genai-profile#39"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#63",
+              "nist-ai-rmf#4",
+              "nist-genai-profile#6",
+              "nist-ai-rmf#61"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.125,
+            "ndcg10": 0.31546487678572877,
+            "top": [
+              "nist-ai-rmf#26",
+              "nist-ai-rmf#14",
+              "nist-ai-rmf#29",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#24"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#5",
+              "nist-csf-2#19",
+              "nist-ai-rmf#103"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-genai-profile#6",
+              "nist-ai-rmf#103",
+              "nist-genai-profile#105",
+              "nist-ai-rmf#90"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#99",
+              "nist-ai-rmf#100",
+              "nist-genai-profile#42",
+              "nist-ai-rmf#6",
+              "nist-ai-rmf#101"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#77",
+              "nist-ai-rmf#80",
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#81",
+              "nist-ai-rmf#82"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#1",
+              "nist-ai-rmf#12",
+              "nist-ai-rmf#57",
+              "nist-ai-rmf#10",
+              "nist-ai-rmf#33"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#22",
+              "nist-genai-profile#24",
+              "nist-genai-profile#16",
+              "nist-genai-profile#23",
+              "nist-genai-profile#15"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#30",
+              "nist-genai-profile#145",
+              "nist-genai-profile#152",
+              "nist-genai-profile#20",
+              "nist-genai-profile#149"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#8",
+              "nist-genai-profile#121",
+              "nist-genai-profile#130",
+              "nist-genai-profile#125",
+              "nist-genai-profile#123"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#17",
+              "nist-genai-profile#34",
+              "nist-genai-profile#23",
+              "nist-genai-profile#11",
+              "nist-genai-profile#122"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#51",
+              "nist-genai-profile#45",
+              "nist-genai-profile#61",
+              "nist-genai-profile#46",
+              "nist-genai-profile#50"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#6",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#5",
+              "nist-csf-2#20",
+              "nist-ai-rmf#89"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#35",
+              "nist-genai-profile#48",
+              "nist-genai-profile#77",
+              "nist-genai-profile#81",
+              "nist-genai-profile#51"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#63",
+              "nist-csf-2#13",
+              "nist-csf-2#14",
+              "nist-csf-2#40",
+              "nist-csf-2#8"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#64",
+              "nist-csf-2#23",
+              "nist-csf-2#60",
+              "nist-csf-2#24",
+              "nist-csf-2#57"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#20",
+              "nist-csf-2#62",
+              "nist-csf-2#21",
+              "nist-csf-2#19",
+              "nist-csf-2#24"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#7",
+              "nist-csf-2#19",
+              "nist-csf-2#28",
+              "nist-csf-2#10",
+              "nist-csf-2#27"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#45",
+              "nist-csf-2#38",
+              "nist-csf-2#46",
+              "nist-genai-profile#46",
+              "nist-genai-profile#45"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#15",
+              "nist-csf-2#17",
+              "nist-csf-2#13",
+              "nist-csf-2#63",
+              "nist-csf-2#41"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#4"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#0"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#3",
+              "nz-ai-policy-template#11"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#5",
+              "fedramp-ssp-template#6",
+              "fedramp-ssp-template#30",
+              "fedramp-ssp-template#42",
+              "fedramp-ssp-template#24"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#42",
+              "fedramp-ssp-template#36",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#61",
+              "fedramp-ssp-template#52"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#41",
+              "fedramp-ssp-template#40",
+              "fedramp-ssp-template#39",
+              "fedramp-ssp-template#72",
+              "fedramp-ssp-template#46"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#56",
+              "fedramp-ssp-template#55",
+              "fedramp-ssp-template#61",
+              "fedramp-ssp-template#16",
+              "fedramp-ssp-template#59"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0.5,
+              "10": 1
+            },
+            "mrr": 0.25,
+            "ndcg10": 0.45749452618986164,
+            "top": [
+              "nist-ai-rmf#62",
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#107",
+              "nist-ai-rmf#63",
+              "nist-ai-rmf#64"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0.5,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6509209298071326,
+            "top": [
+              "nist-csf-2#22",
+              "nist-csf-2#19",
+              "nist-ai-rmf#90",
+              "nist-ai-rmf#89",
+              "nist-csf-2#21"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sweep": [
+    {
+      "label": "150 tok (681 chunks)",
+      "r": {
+        "mode": "hybrid+rerank",
+        "recall": {
+          "1": 0.7580645161290323,
+          "3": 0.9193548387096774,
+          "5": 0.9193548387096774,
+          "10": 0.967741935483871
+        },
+        "mrr": 0.8602150537634408,
+        "ndcg10": 0.8847172817614982,
+        "byType": {
+          "list": {
+            "1": 0.8333333333333334,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.9333333333333333,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "paraphrase": {
+            "1": 0.2,
+            "3": 0.6,
+            "5": 0.6,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0.25,
+            "3": 0.75,
+            "5": 0.75,
+            "10": 1
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#95",
+              "nist-ai-rmf#21",
+              "nist-ai-rmf#96",
+              "nist-ai-rmf#110",
+              "nist-ai-rmf#101"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#60",
+              "nist-ai-rmf#20",
+              "nist-ai-rmf#61",
+              "nist-ai-rmf#65"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#103",
+              "nist-ai-rmf#96",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#151",
+              "nist-ai-rmf#100"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#183",
+              "nist-ai-rmf#39",
+              "nist-ai-rmf#17",
+              "nist-ai-rmf#41",
+              "nist-ai-rmf#49"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#149",
+              "nist-ai-rmf#150",
+              "nist-csf-2#34",
+              "nist-ai-rmf#148",
+              "nist-ai-rmf#171"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#148",
+              "nist-genai-profile#8",
+              "nist-ai-rmf#151",
+              "nist-genai-profile#181",
+              "nist-ai-rmf#181"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#165",
+              "nist-ai-rmf#166",
+              "nist-ai-rmf#167",
+              "nist-genai-profile#68",
+              "nist-ai-rmf#168"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#128",
+              "nist-ai-rmf#129",
+              "nist-ai-rmf#136",
+              "nist-ai-rmf#138",
+              "nist-ai-rmf#95"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#2",
+              "nist-ai-rmf#23",
+              "nist-ai-rmf#129",
+              "nist-ai-rmf#92",
+              "nist-ai-rmf#3"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#33",
+              "nist-genai-profile#37",
+              "nist-genai-profile#36",
+              "nist-genai-profile#35",
+              "nist-genai-profile#34"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#45",
+              "nist-genai-profile#171",
+              "nist-genai-profile#247",
+              "nist-genai-profile#30",
+              "nist-genai-profile#42"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#11",
+              "nist-genai-profile#208",
+              "nist-genai-profile#211",
+              "nist-genai-profile#213",
+              "nist-genai-profile#216"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.16666666666666666,
+            "ndcg10": 0.3562071871080222,
+            "top": [
+              "nist-genai-profile#53",
+              "nist-genai-profile#17",
+              "nist-ai-rmf#172",
+              "nist-genai-profile#78",
+              "nist-genai-profile#40"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#85",
+              "nist-genai-profile#73",
+              "nist-genai-profile#77",
+              "nist-genai-profile#103",
+              "nist-genai-profile#84"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#8",
+              "nist-ai-rmf#151",
+              "nist-genai-profile#6",
+              "nist-csf-2#35",
+              "nist-ai-rmf#149"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#25",
+              "nist-genai-profile#54",
+              "nist-genai-profile#81",
+              "nist-genai-profile#78",
+              "nist-genai-profile#124"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#100",
+              "nist-csf-2#22",
+              "nist-csf-2#24",
+              "nist-csf-2#64",
+              "nist-csf-2#21"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#101",
+              "nist-csf-2#40",
+              "nist-csf-2#95",
+              "nist-csf-2#41",
+              "nist-csf-2#93"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#35",
+              "nist-csf-2#98",
+              "nist-csf-2#42",
+              "nist-csf-2#16",
+              "nist-csf-2#3"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#33",
+              "nist-csf-2#11",
+              "nist-csf-2#34",
+              "nist-csf-2#48",
+              "nist-csf-2#13"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#73",
+              "nist-csf-2#62",
+              "nist-genai-profile#74",
+              "nist-csf-2#72",
+              "nist-csf-2#31"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#26",
+              "nist-csf-2#22",
+              "nist-csf-2#100",
+              "nist-csf-2#30",
+              "nist-csf-2#29"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#16",
+              "nz-ai-policy-template#7",
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#4"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#14",
+              "nz-ai-policy-template#15",
+              "nz-ai-policy-template#6",
+              "nz-ai-policy-template#13",
+              "nz-ai-policy-template#16"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#15",
+              "nz-ai-policy-template#13",
+              "nz-ai-policy-template#14",
+              "nz-ai-policy-template#16",
+              "nz-ai-policy-template#17"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#9",
+              "fedramp-ssp-template#10",
+              "fedramp-ssp-template#62",
+              "fedramp-ssp-template#46",
+              "fedramp-ssp-template#54"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#65",
+              "fedramp-ssp-template#55",
+              "fedramp-ssp-template#112",
+              "fedramp-ssp-template#82",
+              "fedramp-ssp-template#99"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#63",
+              "fedramp-ssp-template#60",
+              "fedramp-ssp-template#64",
+              "fedramp-ssp-template#61",
+              "fedramp-ssp-template#62"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#88",
+              "fedramp-ssp-template#89",
+              "fedramp-ssp-template#87",
+              "fedramp-ssp-template#90",
+              "fedramp-ssp-template#26"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0.5,
+              "5": 0.5,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.5640920940185894,
+            "top": [
+              "nist-ai-rmf#178",
+              "nist-ai-rmf#103",
+              "nist-ai-rmf#101",
+              "nist-ai-rmf#21",
+              "nist-ai-rmf#108"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0.5,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#34",
+              "nist-ai-rmf#149",
+              "nist-csf-2#39",
+              "nist-ai-rmf#150",
+              "nist-csf-2#37"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "250 tok (412 chunks)",
+      "r": {
+        "mode": "hybrid+rerank",
+        "recall": {
+          "1": 0.7741935483870968,
+          "3": 0.8548387096774194,
+          "5": 0.8870967741935484,
+          "10": 0.9354838709677419
+        },
+        "mrr": 0.8346774193548387,
+        "ndcg10": 0.8483511946029385,
+        "byType": {
+          "list": {
+            "1": 0.8333333333333334,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.8666666666666667,
+            "3": 0.9333333333333333,
+            "5": 0.9333333333333333,
+            "10": 0.9333333333333333
+          },
+          "paraphrase": {
+            "1": 0.6,
+            "3": 0.6,
+            "5": 0.6,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0,
+            "3": 0.25,
+            "5": 0.75,
+            "10": 1
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#88",
+              "nist-ai-rmf#85",
+              "nist-ai-rmf#62"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#35",
+              "nist-ai-rmf#39",
+              "nist-genai-profile#43",
+              "nist-ai-rmf#36",
+              "nist-genai-profile#39"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#63",
+              "nist-ai-rmf#4",
+              "nist-genai-profile#6",
+              "nist-ai-rmf#61"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.125,
+            "ndcg10": 0.31546487678572877,
+            "top": [
+              "nist-ai-rmf#26",
+              "nist-ai-rmf#14",
+              "nist-ai-rmf#29",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#24"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#5",
+              "nist-csf-2#19",
+              "nist-ai-rmf#103"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#89",
+              "nist-genai-profile#6",
+              "nist-ai-rmf#103",
+              "nist-genai-profile#105",
+              "nist-genai-profile#81"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#99",
+              "nist-ai-rmf#100",
+              "nist-genai-profile#42",
+              "nist-ai-rmf#6",
+              "nist-ai-rmf#101"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#77",
+              "nist-ai-rmf#80",
+              "nist-ai-rmf#59",
+              "nist-ai-rmf#81",
+              "nist-ai-rmf#82"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#1",
+              "nist-ai-rmf#12",
+              "nist-ai-rmf#57",
+              "nist-ai-rmf#98",
+              "nist-ai-rmf#10"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#22",
+              "nist-genai-profile#24",
+              "nist-genai-profile#16",
+              "nist-genai-profile#23",
+              "nist-genai-profile#15"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#30",
+              "nist-genai-profile#152",
+              "nist-genai-profile#145",
+              "nist-genai-profile#20",
+              "nist-genai-profile#149"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#8",
+              "nist-genai-profile#121",
+              "nist-genai-profile#130",
+              "nist-genai-profile#125",
+              "nist-genai-profile#123"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#17",
+              "nist-genai-profile#34",
+              "nist-genai-profile#23",
+              "nist-genai-profile#11",
+              "nist-genai-profile#122"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#51",
+              "nist-genai-profile#45",
+              "nist-genai-profile#61",
+              "nist-genai-profile#46",
+              "nist-genai-profile#50"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#6",
+              "nist-ai-rmf#90",
+              "nist-genai-profile#5",
+              "nist-csf-2#20",
+              "nist-ai-rmf#89"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#35",
+              "nist-genai-profile#48",
+              "nist-genai-profile#77",
+              "nist-genai-profile#81",
+              "nist-genai-profile#51"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#63",
+              "nist-csf-2#13",
+              "nist-csf-2#14",
+              "nist-csf-2#40",
+              "nist-csf-2#8"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#64",
+              "nist-csf-2#23",
+              "nist-csf-2#60",
+              "nist-csf-2#24",
+              "nist-csf-2#57"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#20",
+              "nist-csf-2#62",
+              "nist-csf-2#21",
+              "nist-csf-2#19",
+              "nist-csf-2#24"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#7",
+              "nist-csf-2#19",
+              "nist-csf-2#28",
+              "nist-csf-2#10",
+              "nist-csf-2#27"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#45",
+              "nist-csf-2#38",
+              "nist-csf-2#46",
+              "nist-genai-profile#46",
+              "nist-genai-profile#45"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#15",
+              "nist-csf-2#17",
+              "nist-csf-2#13",
+              "nist-csf-2#63",
+              "nist-csf-2#41"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#5",
+              "nz-ai-policy-template#8"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#0"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#10",
+              "nz-ai-policy-template#9",
+              "nz-ai-policy-template#8",
+              "nz-ai-policy-template#3",
+              "nz-ai-policy-template#11"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#5",
+              "fedramp-ssp-template#6",
+              "fedramp-ssp-template#30",
+              "fedramp-ssp-template#42",
+              "fedramp-ssp-template#24"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#42",
+              "fedramp-ssp-template#36",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#61",
+              "fedramp-ssp-template#52"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#41",
+              "fedramp-ssp-template#40",
+              "fedramp-ssp-template#39",
+              "fedramp-ssp-template#72",
+              "fedramp-ssp-template#46"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#56",
+              "fedramp-ssp-template#55",
+              "fedramp-ssp-template#61",
+              "fedramp-ssp-template#16",
+              "fedramp-ssp-template#59"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0.5,
+              "10": 1
+            },
+            "mrr": 0.25,
+            "ndcg10": 0.45749452618986164,
+            "top": [
+              "nist-ai-rmf#11",
+              "nist-ai-rmf#62",
+              "nist-ai-rmf#107",
+              "nist-ai-rmf#63",
+              "nist-ai-rmf#64"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 0.5,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6509209298071326,
+            "top": [
+              "nist-csf-2#22",
+              "nist-csf-2#19",
+              "nist-ai-rmf#90",
+              "nist-ai-rmf#89",
+              "nist-csf-2#21"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "350 tok (304 chunks)",
+      "r": {
+        "mode": "hybrid+rerank",
+        "recall": {
+          "1": 0.6774193548387096,
+          "3": 0.8225806451612904,
+          "5": 0.8870967741935484,
+          "10": 0.8870967741935484
+        },
+        "mrr": 0.7795698924731184,
+        "ndcg10": 0.7973734598467472,
+        "byType": {
+          "list": {
+            "1": 0.6666666666666666,
+            "3": 0.8333333333333334,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.7333333333333333,
+            "3": 0.8666666666666667,
+            "5": 0.8666666666666667,
+            "10": 0.8666666666666667
+          },
+          "paraphrase": {
+            "1": 0.4,
+            "3": 0.6,
+            "5": 0.8,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0.5,
+            "3": 0.75,
+            "5": 0.75,
+            "10": 0.75
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#41",
+              "nist-ai-rmf#62",
+              "nist-ai-rmf#60",
+              "nist-ai-rmf#43",
+              "nist-ai-rmf#4"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#27",
+              "nist-genai-profile#20",
+              "nist-genai-profile#18",
+              "nist-genai-profile#14",
+              "nist-ai-rmf#34"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-ai-rmf#4",
+              "nist-ai-rmf#41",
+              "nist-ai-rmf#64",
+              "nist-genai-profile#3",
+              "nist-ai-rmf#26"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "nist-ai-rmf#12",
+              "nist-ai-rmf#23",
+              "nist-ai-rmf#18",
+              "nist-ai-rmf#8",
+              "nist-ai-rmf#19"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#63",
+              "nist-genai-profile#3",
+              "nist-ai-rmf#64",
+              "nist-csf-2#14",
+              "nist-ai-rmf#74"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#63",
+              "nist-ai-rmf#77",
+              "nist-ai-rmf#64",
+              "nist-genai-profile#3",
+              "nist-ai-rmf#13"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#70",
+              "nist-genai-profile#31",
+              "nist-ai-rmf#6",
+              "nist-genai-profile#19",
+              "nist-ai-rmf#69"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#54",
+              "nist-ai-rmf#41",
+              "nist-ai-rmf#57",
+              "nist-ai-rmf#58",
+              "nist-ai-rmf#55"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#1",
+              "nist-ai-rmf#10",
+              "nist-ai-rmf#40",
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#54"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#15",
+              "nist-genai-profile#16",
+              "nist-genai-profile#9",
+              "nist-genai-profile#90",
+              "nist-genai-profile#17"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#21",
+              "nist-genai-profile#110",
+              "nist-genai-profile#13",
+              "nist-genai-profile#28",
+              "nist-genai-profile#16"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#5",
+              "nist-genai-profile#93",
+              "nist-genai-profile#95",
+              "nist-genai-profile#101",
+              "nist-genai-profile#96"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.25,
+            "ndcg10": 0.43067655807339306,
+            "top": [
+              "nist-genai-profile#7",
+              "nist-genai-profile#24",
+              "nist-ai-rmf#73",
+              "nist-genai-profile#10",
+              "nist-genai-profile#14"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#39",
+              "nist-genai-profile#33",
+              "nist-genai-profile#47",
+              "nist-genai-profile#35",
+              "nist-genai-profile#49"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#64",
+              "nist-genai-profile#3",
+              "nist-ai-rmf#63",
+              "nist-csf-2#12",
+              "nist-csf-2#42"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#25",
+              "nist-genai-profile#59",
+              "nist-genai-profile#61",
+              "nist-genai-profile#70",
+              "nist-genai-profile#9"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.25,
+            "ndcg10": 0.43067655807339306,
+            "top": [
+              "nist-csf-2#43",
+              "nist-csf-2#26",
+              "nist-csf-2#9",
+              "nist-csf-2#8",
+              "nist-csf-2#11"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#40",
+              "nist-csf-2#15",
+              "nist-csf-2#43",
+              "nist-csf-2#41",
+              "nist-csf-2#38"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#42",
+              "nist-csf-2#12",
+              "nist-csf-2#1",
+              "nist-csf-2#6",
+              "nist-csf-2#13"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#4",
+              "nist-csf-2#12",
+              "nist-csf-2#18",
+              "nist-csf-2#21",
+              "nist-csf-2#3"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#29",
+              "nist-csf-2#30",
+              "nist-genai-profile#33",
+              "nist-csf-2#26",
+              "nist-csf-2#27"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#10",
+              "nist-csf-2#9",
+              "nist-csf-2#43",
+              "nist-csf-2#11",
+              "nist-csf-2#26"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#6"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#6",
+              "nz-ai-policy-template#7",
+              "nz-ai-policy-template#3",
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#5"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#7",
+              "nz-ai-policy-template#6",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#0"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#5",
+              "fedramp-ssp-template#25",
+              "fedramp-ssp-template#35",
+              "fedramp-ssp-template#46"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#35",
+              "fedramp-ssp-template#3",
+              "fedramp-ssp-template#30",
+              "fedramp-ssp-template#18",
+              "fedramp-ssp-template#41"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "fedramp-ssp-template#34",
+              "fedramp-ssp-template#32",
+              "fedramp-ssp-template#33",
+              "fedramp-ssp-template#39",
+              "fedramp-ssp-template#59"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#47",
+              "fedramp-ssp-template#46",
+              "fedramp-ssp-template#14",
+              "fedramp-ssp-template#7",
+              "fedramp-ssp-template#52"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 0.5,
+              "10": 0.5
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nist-ai-rmf#43",
+              "nist-ai-rmf#76",
+              "nist-csf-2#11",
+              "nist-ai-rmf#41",
+              "nist-ai-rmf#45"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0.5,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#63",
+              "nist-csf-2#12",
+              "nist-csf-2#14",
+              "nist-csf-2#13",
+              "nist-ai-rmf#64"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "500 tok (216 chunks)",
+      "r": {
+        "mode": "hybrid+rerank",
+        "recall": {
+          "1": 0.7258064516129032,
+          "3": 0.8548387096774194,
+          "5": 0.8870967741935484,
+          "10": 0.8870967741935484
+        },
+        "mrr": 0.8091397849462366,
+        "ndcg10": 0.8163123631607022,
+        "byType": {
+          "list": {
+            "1": 0.8333333333333334,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "factoid": {
+            "1": 0.8,
+            "3": 0.8666666666666667,
+            "5": 0.8666666666666667,
+            "10": 0.8666666666666667
+          },
+          "paraphrase": {
+            "1": 0.4,
+            "3": 0.6,
+            "5": 0.8,
+            "10": 0.8
+          },
+          "identifier": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0.25,
+            "3": 0.75,
+            "5": 0.75,
+            "10": 0.75
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#32",
+              "nist-ai-rmf#47",
+              "nist-ai-rmf#45",
+              "nist-ai-rmf#46",
+              "nist-ai-rmf#34"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#19",
+              "nist-ai-rmf#21",
+              "nist-genai-profile#19",
+              "nist-ai-rmf#5",
+              "nist-ai-rmf#20"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-ai-rmf#32",
+              "nist-ai-rmf#48",
+              "nist-ai-rmf#2",
+              "nist-genai-profile#2",
+              "nist-ai-rmf#33"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-ai-rmf#8",
+              "nist-ai-rmf#13",
+              "nist-ai-rmf#4",
+              "nist-genai-profile#6",
+              "nist-ai-rmf#16"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#48",
+              "nist-ai-rmf#54",
+              "nist-genai-profile#2",
+              "nist-ai-rmf#53",
+              "nist-ai-rmf#55"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#48",
+              "nist-genai-profile#2",
+              "nist-ai-rmf#57",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#53"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#53",
+              "nist-genai-profile#21",
+              "nist-ai-rmf#55",
+              "nist-ai-rmf#54",
+              "nist-genai-profile#12"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#41",
+              "nist-ai-rmf#32",
+              "nist-ai-rmf#42",
+              "nist-ai-rmf#45",
+              "nist-ai-rmf#43"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#0",
+              "nist-ai-rmf#6",
+              "nist-ai-rmf#31",
+              "nist-ai-rmf#41",
+              "nist-ai-rmf#54"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#10",
+              "nist-genai-profile#6",
+              "nist-genai-profile#11",
+              "nist-genai-profile#46",
+              "nist-genai-profile#62"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#13",
+              "nist-genai-profile#77",
+              "nist-genai-profile#53",
+              "nist-genai-profile#9",
+              "nist-genai-profile#18"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#3",
+              "nist-genai-profile#65",
+              "nist-genai-profile#69",
+              "nist-genai-profile#67",
+              "nist-genai-profile#68"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.25,
+            "ndcg10": 0.43067655807339306,
+            "top": [
+              "nist-genai-profile#16",
+              "nist-genai-profile#5",
+              "nist-genai-profile#3",
+              "nist-genai-profile#7",
+              "nist-ai-rmf#54"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#27",
+              "nist-genai-profile#22",
+              "nist-genai-profile#26",
+              "nist-genai-profile#33",
+              "nist-genai-profile#24"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#2",
+              "nist-ai-rmf#48",
+              "nist-genai-profile#6",
+              "nist-csf-2#11",
+              "nist-csf-2#8"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#17",
+              "nist-genai-profile#6",
+              "nist-genai-profile#49",
+              "nist-genai-profile#24",
+              "nist-genai-profile#60"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "nist-csf-2#18",
+              "nist-csf-2#7",
+              "nist-csf-2#5",
+              "nist-csf-2#6",
+              "nist-csf-2#17"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#30",
+              "nist-csf-2#29",
+              "nist-csf-2#28",
+              "nist-csf-2#10",
+              "nist-csf-2#26"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#29",
+              "nist-csf-2#8",
+              "nist-csf-2#4",
+              "nist-csf-2#9",
+              "nist-csf-2#0"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-csf-2#8",
+              "nist-csf-2#2",
+              "nist-csf-2#3",
+              "nist-csf-2#11",
+              "nist-csf-2#6"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#20",
+              "nist-csf-2#16",
+              "nist-csf-2#18",
+              "nist-csf-2#21",
+              "nist-genai-profile#22"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#18",
+              "nist-csf-2#6",
+              "nist-csf-2#7",
+              "nist-csf-2#5",
+              "nist-csf-2#22"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#3"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#5",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#0"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#5",
+              "nz-ai-policy-template#4",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#3"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#3",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#7",
+              "fedramp-ssp-template#0",
+              "fedramp-ssp-template#16"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#27",
+              "fedramp-ssp-template#5",
+              "fedramp-ssp-template#13",
+              "fedramp-ssp-template#23",
+              "fedramp-ssp-template#2"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#26",
+              "fedramp-ssp-template#25",
+              "fedramp-ssp-template#14",
+              "fedramp-ssp-template#41",
+              "fedramp-ssp-template#11"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#33",
+              "fedramp-ssp-template#39",
+              "fedramp-ssp-template#5",
+              "fedramp-ssp-template#11",
+              "fedramp-ssp-template#35"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 0.5,
+              "10": 0.5
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nist-ai-rmf#34",
+              "nist-ai-rmf#35",
+              "nist-csf-2#7",
+              "nist-ai-rmf#32",
+              "nist-ai-rmf#57"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.8868528072345415,
+            "top": [
+              "nist-csf-2#9",
+              "nist-csf-2#8",
+              "nist-ai-rmf#48",
+              "nist-csf-2#17",
+              "nist-genai-profile#2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "800 tok (147 chunks)",
+      "r": {
+        "mode": "hybrid+rerank",
+        "recall": {
+          "1": 0.7419354838709677,
+          "3": 0.8548387096774194,
+          "5": 0.8548387096774194,
+          "10": 0.9193548387096774
+        },
+        "mrr": 0.82642089093702,
+        "ndcg10": 0.8275748567529193,
+        "byType": {
+          "list": {
+            "1": 0.6666666666666666,
+            "3": 0.6666666666666666,
+            "5": 0.6666666666666666,
+            "10": 0.8333333333333334
+          },
+          "factoid": {
+            "1": 0.8666666666666667,
+            "3": 0.8666666666666667,
+            "5": 0.8666666666666667,
+            "10": 0.9333333333333333
+          },
+          "paraphrase": {
+            "1": 0.4,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "identifier": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 1
+          },
+          "multi_hop": {
+            "1": 0.5,
+            "3": 0.75,
+            "5": 0.75,
+            "10": 0.75
+          }
+        },
+        "perQuestion": [
+          {
+            "id": "q01",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#24",
+              "nist-ai-rmf#33",
+              "nist-ai-rmf#3",
+              "nist-ai-rmf#25",
+              "nist-ai-rmf#32"
+            ]
+          },
+          {
+            "id": "q02",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#14",
+              "nist-ai-rmf#15",
+              "nist-ai-rmf#3",
+              "nist-ai-rmf#1",
+              "nist-ai-rmf#19"
+            ]
+          },
+          {
+            "id": "q03",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.14285714285714285,
+            "ndcg10": 0.3333333333333333,
+            "top": [
+              "nist-ai-rmf#24",
+              "nist-ai-rmf#34",
+              "nist-ai-rmf#13",
+              "nist-ai-rmf#1",
+              "nist-genai-profile#2"
+            ]
+          },
+          {
+            "id": "q04",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#9",
+              "nist-ai-rmf#3",
+              "nist-ai-rmf#5",
+              "nist-ai-rmf#24",
+              "nist-ai-rmf#11"
+            ]
+          },
+          {
+            "id": "q05",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#34",
+              "nist-genai-profile#2",
+              "nist-ai-rmf#37",
+              "nist-ai-rmf#38",
+              "nist-ai-rmf#39"
+            ]
+          },
+          {
+            "id": "q06",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#34",
+              "nist-genai-profile#2",
+              "nist-ai-rmf#39",
+              "nist-ai-rmf#5",
+              "nist-ai-rmf#37"
+            ]
+          },
+          {
+            "id": "q07",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-genai-profile#16",
+              "nist-ai-rmf#37",
+              "nist-genai-profile#9",
+              "nist-ai-rmf#38",
+              "nist-genai-profile#3"
+            ]
+          },
+          {
+            "id": "q08",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#30",
+              "nist-ai-rmf#24",
+              "nist-ai-rmf#31",
+              "nist-ai-rmf#32",
+              "nist-ai-rmf#13"
+            ]
+          },
+          {
+            "id": "q09",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-ai-rmf#0",
+              "nist-ai-rmf#23",
+              "nist-ai-rmf#3",
+              "nist-ai-rmf#30",
+              "nist-ai-rmf#41"
+            ]
+          },
+          {
+            "id": "q10",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#7",
+              "nist-genai-profile#4",
+              "nist-genai-profile#40",
+              "nist-genai-profile#8",
+              "nist-genai-profile#35"
+            ]
+          },
+          {
+            "id": "q11",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#10",
+              "nist-genai-profile#11",
+              "nist-genai-profile#14",
+              "nist-genai-profile#6",
+              "nist-genai-profile#35"
+            ]
+          },
+          {
+            "id": "q12",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#42",
+              "nist-genai-profile#45",
+              "nist-genai-profile#43",
+              "nist-genai-profile#44",
+              "nist-genai-profile#47"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.3333333333333333,
+            "ndcg10": 0.5,
+            "top": [
+              "nist-genai-profile#12",
+              "nist-genai-profile#3",
+              "nist-genai-profile#5",
+              "nist-ai-rmf#5",
+              "nist-genai-profile#20"
+            ]
+          },
+          {
+            "id": "q14",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#19",
+              "nist-genai-profile#17",
+              "nist-genai-profile#18",
+              "nist-genai-profile#21",
+              "nist-genai-profile#20"
+            ]
+          },
+          {
+            "id": "q15",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-genai-profile#2",
+              "nist-ai-rmf#34",
+              "nist-csf-2#2",
+              "nist-csf-2#6",
+              "nist-csf-2#19"
+            ]
+          },
+          {
+            "id": "q16",
+            "type": "factoid",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 0
+            },
+            "mrr": 0,
+            "ndcg10": 0,
+            "top": [
+              "nist-genai-profile#13",
+              "nist-genai-profile#18",
+              "nist-genai-profile#32",
+              "nist-genai-profile#27",
+              "nist-genai-profile#36"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "list",
+            "recall": {
+              "1": 0,
+              "3": 0,
+              "5": 0,
+              "10": 1
+            },
+            "mrr": 0.14285714285714285,
+            "ndcg10": 0.3333333333333333,
+            "top": [
+              "nist-csf-2#12",
+              "nist-csf-2#5",
+              "nist-csf-2#4",
+              "nist-csf-2#2",
+              "nist-csf-2#11"
+            ]
+          },
+          {
+            "id": "q18",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#19",
+              "nist-csf-2#18",
+              "nist-csf-2#7",
+              "nist-csf-2#17",
+              "nist-csf-2#3"
+            ]
+          },
+          {
+            "id": "q19",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#19",
+              "nist-csf-2#6",
+              "nist-csf-2#7",
+              "nist-csf-2#2",
+              "nist-csf-2#0"
+            ]
+          },
+          {
+            "id": "q20",
+            "type": "paraphrase",
+            "recall": {
+              "1": 0,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 0.5,
+            "ndcg10": 0.6309297535714575,
+            "top": [
+              "nist-csf-2#2",
+              "nist-csf-2#6",
+              "nist-csf-2#3",
+              "nist-csf-2#4",
+              "nist-csf-2#7"
+            ]
+          },
+          {
+            "id": "q21",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#13",
+              "nist-csf-2#12",
+              "nist-genai-profile#17",
+              "nist-csf-2#11",
+              "nist-ai-rmf#28"
+            ]
+          },
+          {
+            "id": "q22",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#4",
+              "nist-csf-2#12",
+              "nist-csf-2#2",
+              "nist-csf-2#5",
+              "nist-csf-2#9"
+            ]
+          },
+          {
+            "id": "q23",
+            "type": "list",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#3",
+              "nist-ai-rmf#34"
+            ]
+          },
+          {
+            "id": "q24",
+            "type": "paraphrase",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#3",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#2",
+              "nz-ai-policy-template#0",
+              "nist-genai-profile#23"
+            ]
+          },
+          {
+            "id": "q25",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nz-ai-policy-template#3",
+              "nz-ai-policy-template#1",
+              "nz-ai-policy-template#0",
+              "nz-ai-policy-template#2",
+              "nist-genai-profile#15"
+            ]
+          },
+          {
+            "id": "q26",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#2",
+              "fedramp-ssp-template#3",
+              "fedramp-ssp-template#5",
+              "fedramp-ssp-template#17",
+              "fedramp-ssp-template#12"
+            ]
+          },
+          {
+            "id": "q27",
+            "type": "identifier",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#20",
+              "fedramp-ssp-template#10",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#23",
+              "fedramp-ssp-template#18"
+            ]
+          },
+          {
+            "id": "q28",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#19",
+              "fedramp-ssp-template#29",
+              "fedramp-ssp-template#11",
+              "fedramp-ssp-template#10",
+              "fedramp-ssp-template#14"
+            ]
+          },
+          {
+            "id": "q29",
+            "type": "factoid",
+            "recall": {
+              "1": 1,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "fedramp-ssp-template#24",
+              "fedramp-ssp-template#25",
+              "fedramp-ssp-template#4",
+              "fedramp-ssp-template#26",
+              "fedramp-ssp-template#28"
+            ]
+          },
+          {
+            "id": "q30",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 0.5,
+              "10": 0.5
+            },
+            "mrr": 1,
+            "ndcg10": 0.6131471927654584,
+            "top": [
+              "nist-ai-rmf#25",
+              "nist-ai-rmf#24",
+              "nist-ai-rmf#32",
+              "nist-ai-rmf#26",
+              "nist-ai-rmf#1"
+            ]
+          },
+          {
+            "id": "q31",
+            "type": "multi_hop",
+            "recall": {
+              "1": 0.5,
+              "3": 1,
+              "5": 1,
+              "10": 1
+            },
+            "mrr": 1,
+            "ndcg10": 1,
+            "top": [
+              "nist-csf-2#6",
+              "nist-ai-rmf#34",
+              "nist-genai-profile#2",
+              "nist-ai-rmf#3",
+              "nist-ai-rmf#13"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

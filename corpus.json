@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nist-ai-rmf",
+    "title": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "nist-genai-profile",
+    "title": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "nist-csf-2",
+    "title": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+    "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "nz-ai-policy-template",
+    "title": "NZ Government: Use of Artificial Intelligence Policy Template (March 2026)",
+    "url": "https://dns.govt.nz/assets/Standards-guidance/Technology-and-architecture/AI/AI-toolkit/Artificial-Intelligence-Policy-template-March2026.docx",
+    "format": "docx"
+  },
+  {
+    "id": "fedramp-ssp-template",
+    "title": "FedRAMP High/Moderate/Low/LI-SaaS Baseline System Security Plan (SSP) Template",
+    "url": "https://www.fedramp.gov/resources/templates/FedRAMP-High-Moderate-Low-LI-SaaS-Baseline-System-Security-Plan-(SSP).docx",
+    "format": "docx"
+  }
+]

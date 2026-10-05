@@ -1,0 +1,52 @@
+{
+  "name": "myrag",
+  "version": "1.0.0",
+  "description": "RAG over messy government PDFs and Word files with cited answers and retrieval/faithfulness evals",
+  "scripts": {
+    "test": "vitest run",
+    "fetch": "tsx src/cli/fetch.ts",
+    "ingest": "tsx src/cli/ingest.ts",
+    "index": "tsx src/cli/build-index.ts",
+    "build": "npm run fetch && npm run partition && npm run ingest && npm run index",
+    "search": "tsx src/cli/search.ts",
+    "ask": "tsx src/cli/ask.ts",
+    "eval:validate": "tsx src/cli/validate-golden.ts",
+    "eval:retrieval": "tsx src/cli/eval-retrieval.ts",
+    "eval:answers": "tsx src/cli/eval-answers.ts",
+    "typecheck": "tsc -p . && tsc -p web",
+    "partition": "node scripts/partition.mjs",
+    "serve": "tsx src/server.ts",
+    "dev": "concurrently -k -n api,web -c blue,green \"tsx watch src/server.ts\" \"vite --config web/vite.config.ts\"",
+    "web:build": "vite build --config web/vite.config.ts",
+    "start": "npm run web:build && tsx src/server.ts"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "@hono/node-server": "^2.1.3",
+    "@huggingface/transformers": "^4.3.0",
+    "hono": "^4.13.13",
+    "node-html-parser": "^9.0.4",
+    "pg": "^8.23.1",
+    "pgvector": "^0.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

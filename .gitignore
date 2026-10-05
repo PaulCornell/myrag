@@ -1,0 +1,8 @@
+node_modules/
+data/
+eval/results/*.json
+!eval/results/.gitkeep
+.env
+.venv/
+__pycache__/
+web/dist/

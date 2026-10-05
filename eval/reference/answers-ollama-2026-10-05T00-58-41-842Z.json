@@ -1,0 +1,1855 @@
+{
+  "config": {
+    "answerProvider": "ollama",
+    "answerModel": "qwen2.5:3b",
+    "judgeProvider": "ollama",
+    "judgeModel": "qwen2.5:3b",
+    "k": 6,
+    "mode": "hybrid+rerank",
+    "costUsd": 0
+  },
+  "summary": {
+    "n": 35,
+    "failed": 0,
+    "context_recall_at_k": 0.8870967741935484,
+    "faithfulness": 1,
+    "fully_faithful_answers": 1,
+    "correctness": 0.7428571428571429,
+    "correctness_answerable": 0.7096774193548387,
+    "citation_coverage": 1,
+    "citation_precision": 0.6666666666666666,
+    "abstention_on_unanswerable": 1,
+    "false_abstention_on_answerable": 0,
+    "citation_support": 0.8536866359447005
+  },
+  "failures": [],
+  "rows": [
+    {
+      "id": "q01",
+      "type": "list",
+      "question": "What are the four functions of the AI RMF Core?",
+      "answer": {
+        "text": "The four functions of the AI RMF Core are GOVERN, MAP, MEASURE, and MANAGE [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#59",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "5. AI RMF Core"
+            ],
+            "pages": "25",
+            "citedText": "As illustrated in Figure 5, the Core is composed of four functions: GOVERN, MAP, MEASURE, and MANAGE.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The four functions of the AI RMF Core are GOVERN, MAP, MEASURE, and MANAGE",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer correctly lists all four functions (GOVERN, MAP, MEASURE, and MANAGE) as stated in the reference."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q02",
+      "type": "list",
+      "question": "Which characteristics make an AI system trustworthy according to the AI RMF?",
+      "answer": {
+        "text": "Trustworthy AI Characteristics include valid and reliable, accountable and transparent, explainable and interpretable, privacy-enhanced, safe, secure and resilient, and fair with harmful bias managed [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#35",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "3. AI Risks and Trustworthiness"
+            ],
+            "pages": "17",
+            "citedText": "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Trustworthy AI Characteristics include valid and reliable, accountable and transparent, explainable and interpretable, privacy-enhanced, safe, secure and resilient, and fair with harmful bias managed",
+            "verdict": "supported",
+            "source_numbers": [
+              3,
+              1,
+              4
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer includes all the key characteristics listed in the reference, in a slightly different wording."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q03",
+      "type": "factoid",
+      "question": "Which AI RMF function is described as cross-cutting, and why?",
+      "answer": {
+        "text": "GOVERN is described as a cross-cutting function because it is infused throughout AI risk management and enables the other functions of the process. [1]",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#59",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "5. AI RMF Core"
+            ],
+            "pages": "25",
+            "citedText": "Governance is designed to be a cross-cutting function to inform and be infused throughout the other three functions.",
+            "verified": true,
+            "support": 0.7857142857142857
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "GOVERN is described as a cross-cutting function because it is infused throughout AI risk management and enables the other functions of the process.",
+            "verdict": "supported",
+            "source_numbers": [
+              2
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key facts from the reference without any additional inaccuracies or omissions."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q04",
+      "type": "paraphrase",
+      "question": "How does the AI RMF define how much risk an organization is willing to accept?",
+      "answer": {
+        "text": "The AI RMF defines risk tolerance as something organizations should define once existing guidelines do not exist, based on their own criteria [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#24",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "1. Framing Risk",
+              "1.2 Challenges for AI Risk Management",
+              "1.2.2 Risk Tolerance"
+            ],
+            "pages": "12",
+            "citedText": "Where established guidelines do not exist, organizations should define reasonable risk tolerance.",
+            "verified": true,
+            "support": 0.7857142857142857
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 0,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The AI RMF defines risk tolerance as something organizations should define once existing guidelines do not exist, based on their own criteria.",
+            "verdict": "supported",
+            "source_numbers": [
+              5
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "incorrect",
+        "rationale": "The reference states that the AI RMF does not prescribe risk tolerance, and the answer incorrectly attributes this concept to the AI RMF itself."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q05",
+      "type": "factoid",
+      "question": "What is the difference between an AI RMF Current Profile and a Target Profile?",
+      "answer": {
+        "text": "An AI RMF Current Profile indicates how AI is currently being managed and the related risks in terms of current outcomes [1], while a Target Profile indicates the outcomes needed to achieve the desired or target AI risk management goals [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#89",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "6. AI RMF Profiles"
+            ],
+            "pages": "38",
+            "citedText": "An AI RMF Current Profile indicates how AI is currently being managed and the related risks in terms of current outcomes.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "An AI RMF Current Profile indicates how AI is currently being managed and the related risks in terms of current outcomes [1]",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "a Target Profile indicates the outcomes needed to achieve the desired or target AI risk management goals [1]",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key points from the reference text without any additions or omissions."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q06",
+      "type": "factoid",
+      "question": "What is an AI RMF use-case profile? Give an example.",
+      "answer": {
+        "text": "An AI RMF use-case profile is an implementation of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user. An example is an AI RMF hiring profile or an AI RMF fair housing profile [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#89",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "6. AI RMF Profiles"
+            ],
+            "pages": "38",
+            "citedText": "AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user: for example, an AI RMF hiring profile or an AI RMF fair housing profile.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "An AI RMF use-case profile is an implementation of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key facts of the reference, including the definition of an AI RMF use-case profile and provides an example, without any additional or incorrect information."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q07",
+      "type": "paraphrase",
+      "question": "Why can training data be a bigger source of risk for AI than for traditional software?",
+      "answer": {
+        "text": "Training data can be a bigger source of risk for AI than for traditional software because AI systems may use data that changes over time, significantly and unexpectedly, affecting system functionality and trustworthiness in ways that are hard to understand [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#100",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "6. AI RMF Profiles",
+              "How AI Risks Differ from Traditional Software Risks"
+            ],
+            "pages": "43",
+            "citedText": "- Privacy risk due to enhanced data aggregation capability for AI systems.",
+            "verified": false,
+            "support": 0.43478260869565216
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 0
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Training data can be a bigger source of risk for AI than for traditional software because AI systems may use data that changes over time, significantly and unexpectedly, affecting system functionality and trustworthiness in ways that are hard to understand [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              4
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "incorrect",
+        "rationale": "The answer does not directly address the key points in the reference answer. The reference emphasizes issues with training data such as lack of ground truth, bias, and data quality issues, but the answer introduces new points about data changing over time, which is not mentioned in the reference."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q08",
+      "type": "factoid",
+      "question": "What does the MEASURE function of the AI RMF do?",
+      "answer": {
+        "text": "The MEASURE function employs tools and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts [1]. It includes testing AI systems before deployment and regularly while in operation [1]. The function also involves documenting aspects of systems' functionality and trustworthiness [1]. It evaluates AI system safety, security, and resilience [2]. It examines risks associated with transparency, accountability, fairness, and bias [2]. It assesses the environmental impact and sustainability of AI model training and management activities [2]. It evaluates the effectiveness of employed TEVV metrics and processes [3].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#77",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "5. AI RMF Core",
+              "5.3 Measure"
+            ],
+            "pages": "33",
+            "citedText": "The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts.",
+            "verified": true,
+            "support": 1
+          },
+          {
+            "n": 2,
+            "chunkId": "nist-ai-rmf#80",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "5. AI RMF Core",
+              "5.3 Measure"
+            ],
+            "pages": "34-35",
+            "citedText": "MEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.",
+            "verified": true,
+            "support": 1
+          },
+          {
+            "n": 3,
+            "chunkId": "nist-ai-rmf#82",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "5. AI RMF Core",
+              "5.3 Measure"
+            ],
+            "pages": "35-36",
+            "citedText": "MEASURE 2.13: Effectiveness of the employed TEVV metrics and processes in the MEASURE function are evaluated and documented.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 0.7142857142857143
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The MEASURE function employs tools and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "It includes testing AI systems before deployment and regularly while in operation [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "It involves documenting aspects of systems' functionality and trustworthiness [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "It evaluates AI system safety, security, and resilience [2].",
+            "verdict": "supported",
+            "source_numbers": [
+              2
+            ]
+          },
+          {
+            "claim": "It examines risks associated with transparency, accountability, fairness, and bias [2].",
+            "verdict": "supported",
+            "source_numbers": [
+              2
+            ]
+          },
+          {
+            "claim": "It assesses the environmental impact and sustainability of AI model training and management activities [2].",
+            "verdict": "supported",
+            "source_numbers": [
+              2
+            ]
+          },
+          {
+            "claim": "It evaluates the effectiveness of employed TEVV metrics and processes [3].",
+            "verdict": "supported",
+            "source_numbers": [
+              3
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer includes some accurate details about the MEASURE function, such as analyzing, assessing, benchmarking, and monitoring AI risk and impacts, testing AI systems, and evaluating transparency, accountability, fairness, and bias. However, the answer also includes details not mentioned in the reference, such as 'documenting aspects of systems' functionality and trustworthiness,' 'examining risks associated with environmental impact and sustainability,' and 'evaluating the effectiveness of employed TEVV metrics and processes.' These additional points are not covered by the reference and are not present in the reference answer."
+      },
+      "citationPrecision": 0.3333333333333333
+    },
+    {
+      "id": "q09",
+      "type": "factoid",
+      "question": "When does NIST expect to conduct a formal review of the AI RMF?",
+      "answer": {
+        "text": "NIST expects to conduct a formal review of the AI RMF no later than 2028 [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#1",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "Update Schedule and Versions"
+            ],
+            "pages": "3-4",
+            "citedText": "a review with formal input from the AI community is expected to take place no later than 2028.",
+            "verified": true,
+            "support": 0.875
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "NIST expects to conduct a formal review of the AI RMF no later than 2028 [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer conveys the key fact from the reference (NIST's expectation for the formal review by 2028) accurately and adds a citation, which is extra detail."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q10",
+      "type": "factoid",
+      "question": "What does the GenAI Profile mean by confabulation?",
+      "answer": {
+        "text": "GenAI Profile means confabulation as the production of confidently stated but erroneous or false content (known colloquially as \"hallucinations\" or \"fabrications\") by which users may be misled or deceived [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-genai-profile#22",
+            "docId": "nist-genai-profile",
+            "docTitle": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+            "section": [
+              "1. Introduction",
+              "2.2. Confabulation"
+            ],
+            "pages": "10",
+            "citedText": "\"Confabulation\" refers to a phenomenon in which GAI systems generate and confidently present erroneous or false content in response to prompts.",
+            "verified": false,
+            "support": 0.5882352941176471
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 0
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "GenAI Profile means confabulation as the production of confidently stated but erroneous or false content (known colloquially as 'hallucinations' or 'fabrications') by which users may be misled or deceived [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "incorrect",
+        "rationale": "The reference does not mention or imply the concept of 'confabulation' in the context of GenAI systems. Instead, it discusses 'hallucinations' and 'false content' produced by GenAI systems. The answer incorrectly introduces the term 'confabulation' without any supporting reference from the given context."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q11",
+      "type": "factoid",
+      "question": "How much carbon can training a single transformer LLM emit, according to NIST?",
+      "answer": {
+        "text": "Training a single transformer LLM can emit as much carbon as 300 roundtrip flights between San Francisco and New York [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-genai-profile#30",
+            "docId": "nist-genai-profile",
+            "docTitle": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+            "section": [
+              "1. Introduction",
+              "2.5. Environmental Impacts"
+            ],
+            "pages": "12",
+            "citedText": "Current estimates suggest that training a single transformer LLM can emit as much carbon as 300 roundtrip flights between San Francisco and New York.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Training a single transformer LLM can emit as much carbon as 300 roundtrip flights between San Francisco and New York [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key detail from the reference without adding any extraneous information."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q12",
+      "type": "list",
+      "question": "Which four primary considerations did the generative AI Public Working Group focus on?",
+      "answer": {
+        "text": "The generative AI Public Working Group focused on Governance, Content Provenance, Pre-deployment Testing, and Incident Disclosure [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-genai-profile#8",
+            "docId": "nist-genai-profile",
+            "docTitle": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+            "section": [
+              "1. Introduction"
+            ],
+            "pages": "6",
+            "citedText": "The focus of the GAI PWG was limited to four primary considerations relevant to GAI: Governance, Content Provenance, Pre-deployment Testing, and Incident Disclosure (further described in Appendix A).",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The generative AI Public Working Group focused on Governance, Content Provenance, Pre-deployment Testing, and Incident Disclosure",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer includes all the key points from the reference and uses slightly different wording."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q13",
+      "type": "paraphrase",
+      "question": "What risk does NIST describe when people over-trust or emotionally attach to generative AI systems?",
+      "answer": {
+        "text": "NIST describes a risk where people may over-rely on or emotionally attach to generative AI systems, which is called automation bias [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-genai-profile#34",
+            "docId": "nist-genai-profile",
+            "docTitle": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+            "section": [
+              "1. Introduction",
+              "2.7. Human-AI Configuration"
+            ],
+            "pages": "13",
+            "citedText": "This phenomenon is an example of automation bias, or excessive deference to automated systems.",
+            "verified": false,
+            "support": 0.46153846153846156
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 0
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "NIST describes a risk where people may over-rely on or emotionally attach to generative AI systems, which is called automation bias",
+            "verdict": "supported",
+            "source_numbers": [
+              2
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer mentions over-reliance and emotional attachment, which are part of the key facts provided in the reference. However, it incorrectly labels this as 'automation bias' instead of one of the other risks mentioned (algorithmic aversion, over-reliance, or emotional entanglement). It also omits the other risks mentioned in the reference."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q14",
+      "type": "identifier",
+      "question": "What does suggested action GV-1.6-001 in the GenAI Profile recommend?",
+      "answer": {
+        "text": "Suggested action GV-1.6-001 in the GenAI Profile recommends enumerating organizational GAI systems for incorporation into AI system inventory and adjusting AI system inventory requirements to account for GAI risks [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-genai-profile#51",
+            "docId": "nist-genai-profile",
+            "docTitle": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+            "section": [
+              "3. Suggested Actions to Manage GAI Risks"
+            ],
+            "pages": "20",
+            "citedText": "GV-1.6-001 | Enumerate organizational GAI systems for incorporation into AI system inventory and adjust AI system inventory requirements to account for GAI risks.",
+            "verified": true,
+            "support": 0.85
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Suggested action GV-1.6-001 in the GenAI Profile recommends enumerating organizational GAI systems for incorporation into AI system inventory and adjusting AI system inventory requirements to account for GAI risks [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "incorrect",
+        "rationale": "The reference text does not mention any specific GenAI Profile action (GV-1.6-001) or provide any recommendation. It instead describes a general action related to AI systems and GAI risks. The answer incorrectly attributes a specific recommendation to a particular GenAI Profile action."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q15",
+      "type": "factoid",
+      "question": "Why does NIST classify the GenAI Profile as a cross-sectoral profile?",
+      "answer": {
+        "text": "NIST classifies the GenAI Profile as a cross-sectoral profile because it covers risks of models or applications that can be used across use cases or sectors [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-genai-profile#6",
+            "docId": "nist-genai-profile",
+            "docTitle": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+            "section": [
+              "1. Introduction"
+            ],
+            "pages": "5",
+            "citedText": "As GAI covers risks of models or applications that can be used across use cases or sectors, this document is an AI RMF cross-sectoral profile.",
+            "verified": true,
+            "support": 0.7647058823529411
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "NIST classifies the GenAI Profile as a cross-sectoral profile because it covers risks of models or applications that can be used across use cases or sectors [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key detail from the reference text without adding any extraneous information."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q16",
+      "type": "factoid",
+      "question": "How does the GenAI Profile define the Information Integrity risk?",
+      "answer": {
+        "text": "The GenAI Profile defines Information Integrity as the \"spectrum of information and associated patterns of its creation, exchange, and consumption in society\" [1]. It distinguishes fact from fiction, opinion, and inference; acknowledges uncertainties; and is transparent about its level of vetting. Information must be accurate and reliable, verifiable, have a clear chain of custody, and have reasonable expectations about its validity duration [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-genai-profile#35",
+            "docId": "nist-genai-profile",
+            "docTitle": "NIST AI 600-1: AI RMF Generative Artificial Intelligence Profile",
+            "section": [
+              "1. Introduction",
+              "2.8. Information Integrity"
+            ],
+            "pages": "13-14",
+            "citedText": "Information integrity describes the \"spectrum of information and associated patterns of its creation, exchange, and consumption in society.\" High-integrity information can be trusted;",
+            "verified": true,
+            "support": 0.9166666666666666
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 0,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The GenAI Profile defines Information Integrity as the 'spectrum of information and associated patterns of its creation, exchange, and consumption in society'.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "It distinguishes fact from fiction, opinion, and inference; acknowledges uncertainties; and is transparent about its level of vetting.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "Information must be accurate and reliable, verifiable, have a clear chain of custody, and have reasonable expectations about its validity duration.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "incorrect",
+        "rationale": "The reference does not provide a definition of Information Integrity risk, but rather a description of a potential issue related to Information Integrity. The answer includes a definition of Information Integrity, which is not aligned with the reference's description."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q17",
+      "type": "list",
+      "question": "What are the six Functions of the NIST CSF 2.0 Core?",
+      "answer": {
+        "text": "The six Functions of the NIST CSF 2.0 Core are Govern [1], Identify [1], Protect [1], Detect [1], Respond [1], and Recover [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-csf-2#63",
+            "docId": "nist-csf-2",
+            "docTitle": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+            "section": [
+              "Appendix C. Glossary",
+              "CSF Current Profile"
+            ],
+            "pages": "31",
+            "citedText": "There are six CSF Functions: Govern, Identify, Protect, Detect, Respond, and Recover.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The six Functions of the NIST CSF 2.0 Core are Govern [1], Identify [1], Protect [1], Detect [1], Respond [1], and Recover [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              2,
+              3,
+              4,
+              6
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer includes some of the key functions mentioned in the reference, but it also includes an extra level of detail (e.g., 'Govern [1]', 'Identify [1]', etc.) that is not present in the reference and is not standard NIST CSF terminology."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q18",
+      "type": "list",
+      "question": "What are the four CSF Tiers?",
+      "answer": {
+        "text": "The four CSF Tiers are Partial (Tier 1), Risk Informed (Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4) [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-csf-2#23",
+            "docId": "nist-csf-2",
+            "docTitle": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+            "section": [
+              "3.1. CSF Profiles"
+            ],
+            "pages": "12-13",
+            "citedText": "4 and notionally illustrated in Appendix B, reflect an organization's practices for managing cybersecurity risk as Partial (Tier 1), Risk Informed (Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4).",
+            "verified": true,
+            "support": 0.9166666666666666
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The four CSF Tiers are Partial (Tier 1), Risk Informed (Tier 2), Repeatable (Tier 3), and Adaptive (Tier 4).",
+            "verdict": "supported",
+            "source_numbers": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key facts from the reference without any additional information or errors."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q19",
+      "type": "factoid",
+      "question": "In CSF 2.0, what is a Community Profile?",
+      "answer": {
+        "text": "In CSF 2.0, a Community Profile is a baseline of CSF outcomes created and published to address shared interests and goals among a number of organizations. [1]",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-csf-2#20",
+            "docId": "nist-csf-2",
+            "docTitle": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+            "section": [
+              "3.1. CSF Profiles"
+            ],
+            "pages": "11-12",
+            "citedText": "A Community Profile is a baseline of CSF outcomes that is created and published to address shared interests and goals among a number of organizations.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "In CSF 2.0, a Community Profile is a baseline of CSF outcomes created and published to address shared interests and goals among a number of organizations.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key facts from the reference text without any additions or omissions."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q20",
+      "type": "paraphrase",
+      "question": "What should an organization do after comparing where its cybersecurity posture is today with where it wants to be?",
+      "answer": {
+        "text": "An organization should then prioritize its actions to achieve specific outcomes and communicate that information to stakeholders [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-csf-2#7",
+            "docId": "nist-csf-2",
+            "docTitle": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+            "section": [
+              "Table of Contents"
+            ],
+            "pages": "5-6",
+            "citedText": "Special attention is paid to the QSGs to ensure that the CSF is relevant and readily accessible by smaller organizations as well as their larger counterparts.",
+            "verified": false,
+            "support": 0.3333333333333333
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 0
+      },
+      "contextRecall": 0,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "An organization should then prioritize its actions to achieve specific outcomes and communicate that information to stakeholders",
+            "verdict": "supported",
+            "source_numbers": [
+              4
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer mentions prioritizing actions and communicating information, which are part of the reference's answer. However, it omits the key steps of conducting a gap analysis and developing a prioritized action plan (e.g., risk register, POA&M), which are explicitly stated in the reference."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q21",
+      "type": "identifier",
+      "question": "What does subcategory GV.SC-05 require?",
+      "answer": {
+        "text": "Subcategory GV.SC-05 requires establishing, prioritizing, and integrating requirements to address cybersecurity risks in supply chains into contracts and other types of agreements with suppliers and other relevant third parties [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-csf-2#46",
+            "docId": "nist-csf-2",
+            "docTitle": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+            "section": [
+              "Appendix A. CSF Core"
+            ],
+            "pages": "23",
+            "citedText": "- o GV.SC-07: The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship",
+            "verified": true,
+            "support": 0.65
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Subcategory GV.SC-05 requires establishing, prioritizing, and integrating requirements to address cybersecurity risks in supply chains into contracts and other types of agreements with suppliers and other relevant third parties",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer includes some key facts from the reference, specifically mentioning 'establishing, prioritizing, and integrating requirements to address cybersecurity risks in supply chains into contracts and other types of agreements with suppliers and other relevant third parties'. However, it incorrectly attributes this requirement to subcategory GV.SC-05, which is not mentioned in the reference text."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q22",
+      "type": "factoid",
+      "question": "What does the RESPOND function cover in CSF 2.0?",
+      "answer": {
+        "text": "RESPOND (RS) — Actions regarding a detected cybersecurity incident are taken. RESPOND supports the ability to contain the effects of cybersecurity incidents. Outcomes within this Function cover incident management, analysis, mitigation, reporting, and communication [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-csf-2#15",
+            "docId": "nist-csf-2",
+            "docTitle": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+            "section": [
+              "Table of Contents"
+            ],
+            "pages": "9",
+            "citedText": "Outcomes within this Function cover incident management, analysis, mitigation, reporting, and communication.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "RESPOND (RS) — Actions regarding a detected cybersecurity incident are taken.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "RESPOND supports the ability to contain the effects of cybersecurity incidents.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "Outcomes within this Function cover incident management, analysis, mitigation, reporting, and communication.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer correctly identifies the RESPOND function and its actions regarding detected incidents, including containment. However, it does not fully capture the outcomes as described in the reference, which mention 'incident management, analysis, mitigation, reporting, and communication' in addition to containment."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q23",
+      "type": "list",
+      "question": "Who does the NZ government's AI policy template apply to?",
+      "answer": {
+        "text": "The NZ government's AI policy template applies to all [1] employees, including permanent, temporary, events-based, and casual employees, volunteers and/or people in unpaid positions.",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nz-ai-policy-template#0",
+            "docId": "nz-ai-policy-template",
+            "docTitle": "NZ Government: Use of Artificial Intelligence Policy Template (March 2026)",
+            "section": [
+              "Use of Artificial Intelligence Policy"
+            ],
+            "citedText": "- This policy applies to all:",
+            "verified": true,
+            "support": 0.75
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The NZ government's AI policy template applies to all [1] employees, including permanent, temporary, events-based, and casual employees, volunteers and/or people in unpaid positions.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer includes all the key points mentioned in the reference, with slightly different wording."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q24",
+      "type": "paraphrase",
+      "question": "Can staff put customer personal information into enterprise AI tools under the NZ policy template?",
+      "answer": {
+        "text": "Staff cannot put customer personal information into enterprise AI tools unless specific controls are in place to protect personal information [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nz-ai-policy-template#9",
+            "docId": "nz-ai-policy-template",
+            "docTitle": "NZ Government: Use of Artificial Intelligence Policy Template (March 2026)",
+            "section": [
+              "Use of Artificial Intelligence Policy",
+              "Data privacy and security"
+            ],
+            "citedText": "- Customer personal information collected by the [AGENCY/ORGANISATION] must not be entered into enterprise AI tools unless specific controls are in place to protect personal information.",
+            "verified": true,
+            "support": 0.8
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Staff cannot put customer personal information into enterprise AI tools unless specific controls are in place to protect personal information [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key facts from the reference without adding any incorrect information or details."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q25",
+      "type": "factoid",
+      "question": "What must happen when enterprise AI has been used materially to produce a product, per the NZ template?",
+      "answer": {
+        "text": "When enterprise AI has been used materially to produce a product, it must be labelled as having had AI input [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nz-ai-policy-template#10",
+            "docId": "nz-ai-policy-template",
+            "docTitle": "NZ Government: Use of Artificial Intelligence Policy Template (March 2026)",
+            "section": [
+              "Use of Artificial Intelligence Policy",
+              "Review material produced or edited by AI"
+            ],
+            "citedText": "- Where enterprise AI has been used materially, products must be labelled as having had AI input.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "When enterprise AI has been used materially to produce a product, it must be labelled as having had AI input [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer conveys the key fact from the reference (labeling the product) accurately and succinctly."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q26",
+      "type": "factoid",
+      "question": "What is a FedRAMP System Security Plan?",
+      "answer": {
+        "text": "A FedRAMP System Security Plan is the \"security blueprint\" of a CSO that defines the authorization boundary and security controls for protecting CIA of the system and federal data it holds [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "fedramp-ssp-template#5",
+            "docId": "fedramp-ssp-template",
+            "docTitle": "FedRAMP High/Moderate/Low/LI-SaaS Baseline System Security Plan (SSP) Template",
+            "section": [
+              "Introduction"
+            ],
+            "pages": "6",
+            "citedText": "The SSP defines a CSO's authorization boundary and describes the security controls in place to protect the confidentiality, integrity, and availability (CIA) of the system and federal data it holds.",
+            "verified": true,
+            "support": 0.8888888888888888
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "A FedRAMP System Security Plan is the 'security blueprint' of a CSO that defines the authorization boundary and security controls for protecting CIA of the system and federal data it holds",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer conveys the key facts from the reference (security blueprint, authorization boundary, CIA, and federal data) and uses slightly different wording."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q27",
+      "type": "identifier",
+      "question": "What does security control AC-5 require of cloud service providers in the SSP?",
+      "answer": {
+        "text": "Security control AC-5 requires CSPs to identify and document the roles of all individuals who access the system and define the access authorizations that support protections from bad actors, employee collusion, fraud, etc. before damage occurs [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "fedramp-ssp-template#42",
+            "docId": "fedramp-ssp-template",
+            "docTitle": "FedRAMP High/Moderate/Low/LI-SaaS Baseline System Security Plan (SSP) Template",
+            "section": [
+              "Separation of Duties"
+            ],
+            "pages": "16",
+            "citedText": "before damage occurs.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Security control AC-5 requires CSPs to identify and document the roles of all individuals who access the system and define the access authorizations that support protections from bad actors, employee collusion, fraud, etc. before damage occurs [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer includes the key concept of identifying and documenting roles and access authorizations, which is correct. However, the reference text does not specify a particular control number (AC-5) or mention cloud service providers, so the answer goes beyond the given reference by attributing this requirement to AC-5 and mentioning cloud service providers. These additions are not supported by the reference text."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q28",
+      "type": "factoid",
+      "question": "What kind of cryptographic modules does federal policy require for FedRAMP systems?",
+      "answer": {
+        "text": "Federal policy requires the use of FIPS 140-validated cryptographic modules for all systems that process and/or store federal data [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "fedramp-ssp-template#41",
+            "docId": "fedramp-ssp-template",
+            "docTitle": "FedRAMP High/Moderate/Low/LI-SaaS Baseline System Security Plan (SSP) Template",
+            "section": [
+              "Cryptographic Modules Implemented for Data At Rest (DAR) and Data In Transit (DIT)"
+            ],
+            "pages": "15",
+            "citedText": "Federal policy requires that anywhere that cryptography is required, it must employ FIPS 140-validated cryptographic modules.",
+            "verified": true,
+            "support": 1
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "Federal policy requires the use of FIPS 140-validated cryptographic modules for all systems that process and/or store federal data [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "partially_correct",
+        "rationale": "The answer includes the correct requirement (FIPS 140-validated cryptographic modules) but does not directly address the specific context of FedRAMP systems, which is not mentioned."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q29",
+      "type": "factoid",
+      "question": "Which authenticator assurance level is required for a FedRAMP High system?",
+      "answer": {
+        "text": "For a FedRAMP High system, an Authenticator Assurance Level (AAL) of AAL3 is required [1].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "fedramp-ssp-template#56",
+            "docId": "fedramp-ssp-template",
+            "docTitle": "FedRAMP High/Moderate/Low/LI-SaaS Baseline System Security Plan (SSP) Template",
+            "section": [
+              "SSP Appendices List",
+              "Mapping FedRAMP Levels to NIST SP 800-63 Levels"
+            ],
+            "pages": "21",
+            "citedText": "FedRAMP Impact Level | Identity Assurance Level (IAL) | Authenticator Assurance Level (AAL) | Federation Assurance Level (FAL)",
+            "verified": true,
+            "support": 0.8888888888888888
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "For a FedRAMP High system, an Authenticator Assurance Level (AAL) of AAL3 is required",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer correctly states that AAL3 is required for a FedRAMP High system, which matches the reference's statement."
+      },
+      "citationPrecision": 1
+    },
+    {
+      "id": "q30",
+      "type": "multi_hop",
+      "question": "Both the AI RMF and CSF 2.0 have a GOVERN function. How does each describe its role relative to the other functions?",
+      "answer": {
+        "text": "Both the AI RMF and CSF 2.0 describe the GOVERN function as a cross-cutting function that informs and is infused throughout the other functions of the process. [1] The GOVERN function in the AI RMF is responsible for addressing full product lifecycle and associated processes, including legal and other issues concerning use of third-party software or hardware systems and data. [2] It is a foundational function that enables the other functions of the process, such as MAP, MEASURE, and MANAGE. [1] In the AI RMF, the GOVERN function also provides organizations with the opportunity to clarify and define the roles and responsibilities for humans in the Human-AI team configurations and those who are overseeing the AI system performance. [3]",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#62",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "5. AI RMF Core",
+              "5.1 Govern"
+            ],
+            "pages": "26",
+            "citedText": "The GOVERN function:",
+            "verified": true,
+            "support": 0.6666666666666666
+          },
+          {
+            "n": 2,
+            "chunkId": "nist-ai-rmf#63",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "5. AI RMF Core",
+              "5.1 Govern"
+            ],
+            "pages": "26-27",
+            "citedText": "- addresses full product lifecycle and associated processes, including legal and other issues concerning use of third-party software or hardware systems and data.",
+            "verified": true,
+            "support": 0.9090909090909091
+          },
+          {
+            "n": 3,
+            "chunkId": "nist-ai-rmf#107",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "6. AI RMF Profiles",
+              "AI Risk Management and Human-AI Interaction"
+            ],
+            "pages": "46",
+            "citedText": "The GOVERN function provides organizations with the opportunity to clarify and define the roles and responsibilities for the humans in the Human-AI team configurations and those who are overseeing the AI system performance.",
+            "verified": true,
+            "support": 0.9411764705882353
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 0.75
+      },
+      "contextRecall": 0.5,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "The GOVERN function addresses full product lifecycle and associated processes, including legal and other issues concerning use of third-party software or hardware systems and data.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The GOVERN function provides organizations with the opportunity to clarify and define the roles and responsibilities for the humans in the Human-AI team configurations and those who are overseeing the AI system performance.",
+            "verdict": "supported",
+            "source_numbers": [
+              3
+            ]
+          },
+          {
+            "claim": "The GOVERN function is a foundational function that enables the other functions of the process, such as MAP, MEASURE, and MANAGE.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The GOVERN function is a cross-cutting function that informs and is infused throughout the other functions of the process.",
+            "verdict": "supported",
+            "source_numbers": [
+              1,
+              2
+            ]
+          },
+          {
+            "claim": "The GOVERN function is responsible for addressing full product lifecycle and associated processes, including legal and other issues concerning use of third-party software or hardware systems and data.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The GOVERN function provides organizations with the opportunity to clarify and define the roles and responsibilities for humans in the Human-AI team configurations and those who are overseeing the AI system performance.",
+            "verdict": "supported",
+            "source_numbers": [
+              3
+            ]
+          },
+          {
+            "claim": "The GOVERN function is a foundational function that enables the other functions of the process, such as MAP, MEASURE, and MANAGE.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The GOVERN function is a cross-cutting function that informs and is infused throughout the other functions of the process.",
+            "verdict": "supported",
+            "source_numbers": [
+              1,
+              2
+            ]
+          },
+          {
+            "claim": "The GOVERN function is responsible for addressing full product lifecycle and associated processes, including legal and other issues concerning use of third-party software or hardware systems and data.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The GOVERN function provides organizations with the opportunity to clarify and define the roles and responsibilities for humans in the Human-AI team configurations and those who are overseeing the AI system performance.",
+            "verdict": "supported",
+            "source_numbers": [
+              3
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer correctly conveys the key facts from the reference text, including the cross-cutting nature of the GOVERN function and its role in enabling the other functions. The answer also accurately describes the GOVERN function in both the AI RMF and CSF 2.0, including its foundational role and its role in clarifying roles and responsibilities. The answer provides additional details that are consistent with the reference text."
+      },
+      "citationPrecision": 0.3333333333333333
+    },
+    {
+      "id": "q31",
+      "type": "multi_hop",
+      "question": "How do the AI RMF and CSF 2.0 each define the purpose of a Target Profile?",
+      "answer": {
+        "text": "AI RMF defines a Target Profile as the desired outcomes an organization has selected and prioritized for achieving its cybersecurity risk management objectives [1]. CSF 2.0 defines a Target Profile as the desired outcomes that an organization has selected and prioritized for achieving its cybersecurity risk management objectives, considering anticipated changes to the organization's cybersecurity posture [2].",
+        "citations": [
+          {
+            "n": 1,
+            "chunkId": "nist-ai-rmf#90",
+            "docId": "nist-ai-rmf",
+            "docTitle": "NIST AI 100-1: Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+            "section": [
+              "6. AI RMF Profiles"
+            ],
+            "pages": "38-40",
+            "citedText": "Comparing Current and Target Profiles likely reveals gaps to be addressed to meet AI risk management objectives.",
+            "verified": true,
+            "support": 0.6428571428571429
+          },
+          {
+            "n": 2,
+            "chunkId": "nist-csf-2#21",
+            "docId": "nist-csf-2",
+            "docTitle": "NIST CSWP 29: The NIST Cybersecurity Framework (CSF) 2.0",
+            "section": [
+              "3.1. CSF Profiles"
+            ],
+            "pages": "12",
+            "citedText": "Examples of information may include organizational policies, risk management priorities and resources, enterprise risk profiles, business impact analysis (BIA) registers, cybersecurity requirements and standards followed by the organization, practices and tools (e.g., procedures and safeguards), and work roles.",
+            "verified": true,
+            "support": 0.65
+          }
+        ],
+        "abstained": false,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama",
+        "citationSupport": 1
+      },
+      "contextRecall": 1,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "AI RMF defines a Target Profile as the desired outcomes an organization has selected and prioritized for achieving its cybersecurity risk management objectives [1].",
+            "verdict": "supported",
+            "source_numbers": [
+              3
+            ]
+          },
+          {
+            "claim": "CSF 2.0 defines a Target Profile as the desired outcomes that an organization has selected and prioritized for achieving its cybersecurity risk management objectives, considering anticipated changes to the organization's cybersecurity posture [2].",
+            "verdict": "supported",
+            "source_numbers": [
+              1,
+              5
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer accurately conveys the key facts from the reference text for both AI RMF and CSF 2.0 definitions of the purpose of a Target Profile."
+      },
+      "citationPrecision": 0
+    },
+    {
+      "id": "q32",
+      "type": "unanswerable",
+      "question": "What is the maximum fine under the EU AI Act for deploying a prohibited AI system?",
+      "answer": {
+        "text": "I can't answer that from the provided documents.",
+        "citations": [],
+        "abstained": true,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama"
+      },
+      "contextRecall": null,
+      "faithfulness": {
+        "claims": [
+          {
+            "claim": "AI systems should not lead to a state in which human life, health, property, or the environment is endangered.",
+            "verdict": "supported",
+            "source_numbers": [
+              5
+            ]
+          },
+          {
+            "claim": "Reliability is defined as the ability of an item to perform as required, without failure, for a given time interval, under given conditions.",
+            "verdict": "supported",
+            "source_numbers": [
+              4
+            ]
+          },
+          {
+            "claim": "AI systems should not under defined conditions, lead to a state in which human life, health, property, or the environment is endangered.",
+            "verdict": "supported",
+            "source_numbers": [
+              5
+            ]
+          },
+          {
+            "claim": "The AI system to be deployed is demonstrated to be valid and reliable.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "AI systems should not under defined conditions, lead to a state in which human life, health, property, or the environment is endangered.",
+            "verdict": "supported",
+            "source_numbers": [
+              5
+            ]
+          },
+          {
+            "claim": "The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely.",
+            "verdict": "supported",
+            "source_numbers": [
+              3
+            ]
+          },
+          {
+            "claim": "The AI system to be deployed is demonstrated to be valid and reliable.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The AI system to be deployed is demonstrated to be valid and reliable.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The AI system to be deployed is demonstrated to be valid and reliable.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          },
+          {
+            "claim": "The AI system to be deployed is demonstrated to be valid and reliable.",
+            "verdict": "supported",
+            "source_numbers": [
+              1
+            ]
+          }
+        ],
+        "score": 1
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The reference states that the question is not covered by the corpus, and the answer declines to provide information about the maximum fine under the EU AI Act for deploying a prohibited AI system, which aligns with the given instruction."
+      },
+      "citationPrecision": null
+    },
+    {
+      "id": "q33",
+      "type": "unanswerable",
+      "question": "How much does FedRAMP charge a cloud provider to process an authorization package?",
+      "answer": {
+        "text": "I can't answer that from the provided documents.",
+        "citations": [],
+        "abstained": true,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama"
+      },
+      "contextRecall": null,
+      "faithfulness": {
+        "claims": [],
+        "score": null
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer correctly states that the question is not covered by the corpus and does not invent an answer."
+      },
+      "citationPrecision": null
+    },
+    {
+      "id": "q34",
+      "type": "unanswerable",
+      "question": "Which large language model vendors does NIST recommend for government use?",
+      "answer": {
+        "text": "I can't answer that from the provided documents.",
+        "citations": [],
+        "abstained": true,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama"
+      },
+      "contextRecall": null,
+      "faithfulness": {
+        "claims": [],
+        "score": null
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer correctly states that the question is not covered by the corpus and does not invent an answer."
+      },
+      "citationPrecision": null
+    },
+    {
+      "id": "q35",
+      "type": "unanswerable",
+      "question": "What score threshold on the AI RMF maturity assessment qualifies an organization for certification?",
+      "answer": {
+        "text": "I can't answer that from the provided documents.",
+        "citations": [],
+        "abstained": true,
+        "stopReason": "stop",
+        "model": "qwen2.5:3b",
+        "provider": "ollama"
+      },
+      "contextRecall": null,
+      "faithfulness": {
+        "claims": [],
+        "score": null
+      },
+      "correctness": {
+        "verdict": "correct",
+        "rationale": "The answer correctly states that the information is not covered by the corpus and does not attempt to provide an answer, which aligns with the reference's statement that the AI RMF has no certification or maturity score."
+      },
+      "citationPrecision": null
+    }
+  ]
+}
